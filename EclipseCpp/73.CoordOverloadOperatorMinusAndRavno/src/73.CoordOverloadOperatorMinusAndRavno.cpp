@@ -1,0 +1,87 @@
+//Предефинира +, - и = за класа coord.
+#include <iostream>
+using namespace std;
+
+class coord
+{
+	int x, y; //coordinates
+
+public:
+	coord()
+	{
+		x = 0; y = 0;
+	}
+
+	coord(int i, int j)
+	{
+		x = i;
+		y = j;
+	}
+
+	void get_xy(int &i, int &j)
+	{
+		i = x;
+		j = y;
+	}
+
+	coord operator+(coord ob2);
+	coord operator-(coord ob2);
+	coord operator=(coord ob2);
+
+};
+
+
+// + overload
+coord coord::operator+(coord ob2)
+{
+	coord temp;
+
+	temp.x = x + ob2.x;
+	temp.y = y + ob2.y;
+
+	return temp;
+}
+
+// - overload
+coord coord::operator-(coord ob2)
+{
+	coord temp;
+
+	temp.x = x - ob2.x;
+	temp.y = y - ob2.y;
+
+	return temp;
+}
+
+// = overload
+coord coord::operator=(coord ob2)
+{
+	x = ob2.x;
+	y = ob2.y;
+
+	return *this; // vru6ta obekta koito e prisvoen
+}
+
+int main()
+{
+	coord o1(10, 10);
+	coord o2(5, 3);
+	coord o3;
+
+	int x, y;
+
+	o3 = o1 + o2;
+	o3.get_xy(x, y);
+	cout << "(o1 + o2) X: " << x << ", Y: " << y << "\n";
+
+	o3 = o1 - o2;
+	o3.get_xy(x, y);
+	cout << "(o1 - o2) X: " << x << ", Y: " << y << "\n";
+
+	o3 = o1;
+	o3.get_xy(x, y);
+	cout << "(o3 = o1) X: " << x << ", Y: " << y << "\n";
+
+	return 0;
+
+}

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1399759849 source:d:\programming\codeblocks projects\travel\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

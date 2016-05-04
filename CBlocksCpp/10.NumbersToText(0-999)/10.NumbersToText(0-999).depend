@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1404998567 source:d:\programming\codeblocks projects\10.numberstotext(0-999)\main.cpp
+	<iostream>
+	<windows.h>
+	<locale>
+

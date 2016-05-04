@@ -1,0 +1,1 @@
+write a program that reads a text file and inserts line numbers in front of each line the result should be another text file write a program that replaces all occurrences of the substring start with the substring finish in a text file 

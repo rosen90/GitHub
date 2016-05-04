@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1410969773 source:d:\programming\codeblocks projects\numberredicaab\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+

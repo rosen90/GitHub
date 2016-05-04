@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1446411722 source:e:\programming\codeblocks projects\kursovape\main.cpp
+	<iostream>
+	<string>
+	<iomanip>
+	<fstream>
+	<cctype>
+	<cstdlib>
+

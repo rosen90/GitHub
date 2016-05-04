@@ -1,0 +1,2 @@
+Write a program that reads a text file and inserts line numbers in front of each line. The
+result should be another text file.

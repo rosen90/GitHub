@@ -1,0 +1,330 @@
+
+/*
+Design by Alicia A Jasmine
+http://www.100webhosting.com
+Released for free under a Creative Commons Attribution 3.0 License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #ffffff url(images/header_back.jpg) repeat-x left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #41302d;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	color: #534616;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #97210c;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* Header */
+
+#header {
+	width: 960px;
+	height: 108px;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	height: 62px;
+	margin: 0;
+	padding-top: 18px;
+	color: #FFFFFF;
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	float: left;
+	letter-spacing: -1px;
+	font-size: 2.8em;
+}
+
+#logo p {
+	margin: 0;
+	padding: 42px 0 0 0px;
+	font: normal 14px Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #FFFFFF;
+} 
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/* Menu */
+
+#menu {
+	width: 960px;
+	height: 35px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 4px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	height: 35px;
+}
+
+#menu a {
+	display: block;
+	margin-right: 1px;
+	padding: 14px 30px 7px 30px;
+	background: url(images/bar.jpg)  no-repeat right 18px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	background: #754941;
+	text-decoration: none;
+}
+
+#menu .current_page_item a {
+
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}
+
+/* Page */
+
+#page {
+	width: 960px;
+	margin: 0 auto;
+	padding: 40px 0px 0px 0px;
+}
+
+#page-bgtop {
+}
+
+#page-bgbtm {
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 670px;
+	padding: 0;
+}
+
+.post {
+	margin-bottom: 25px;
+	padding: 0px;
+	background: #FFFFFF;
+}
+
+.post-bgtop {
+}
+
+.post-bgbtm {
+}
+
+.post .title {
+	height: 35px;
+	margin-bottom: 10px;
+	padding: 12px 0 0 20px;
+	background: #e0c6c1;
+	border: 1px solid #b4a09d;
+	letter-spacing: -.5px;
+	color: #FFFFFF;
+}
+
+.post .title a {
+	color: #48390E;
+	border: none;
+}
+
+.post .meta {
+	padding-bottom: 5px;
+	padding-left: 20px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+	padding: 0px 20px 20px 20px;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+
+.links {
+	display: block;
+	width: 100px;
+	height: 20px;
+	margin-top: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight:  bold;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 240px;
+	padding: 0px;
+	color: #41302d;
+}
+
+#sidebar ul {
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin: 0;
+	padding: 0;
+}
+
+#about {
+	margin-bottom: 30px;
+	padding: 0px 20px 20px 20px;
+	background: #f7e9e7;
+	border-left: 1px solid #513631;
+	border-right: 1px solid #513631;
+	border-bottom: 1px solid #513631;
+}
+
+
+#sidebar li ul {
+	margin-bottom: 30px;
+	padding: 0px 20px 20px 20px;
+	background: #f2ecea;
+	border-left: 1px solid #e1b4ab;
+	border-right: 1px solid #e1b4ab;
+	border-bottom: 1px solid #e1b4ab;
+}
+
+#sidebar li li {
+	line-height: 35px;
+	border-bottom: 1px dashed #D1D1D1;
+	padding-left: 3px;
+}
+
+#sidebar li li span {
+	display: block;
+	margin-top: -20px;
+	padding: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+
+#sidebar h2 {
+	height: 38px;
+	padding: 12px 0 0 20px;
+	background: #724945;
+	border: 1px solid #513631;
+	letter-spacing: -.5px;
+	color: #ffffff;
+}
+
+#sidebar p {
+	margin: 0 0px;
+	padding: 0px 20px 20px 20px;
+	text-align: justify;
+}
+
+#sidebar a {
+	color: #7d2516;
+	border: none;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+}
+
+/* Footer */
+
+#footer {
+	width: 960px;
+	height: 64px;
+	margin: 0 auto;
+	background: url(images/footer.jpg) no-repeat left top;
+	padding: 0px 0 15px 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 18px;
+	line-height: normal;
+	font-size: 12px;
+	text-align: center;
+}
+
+#footer p span {
+	font-size: 10px;
+}
+
+#footer a {
+	font-weight: bold;
+}

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1404996673 source:d:\programming\codeblocks projects\05.numbertotext\main.cpp
+	<iostream>
+	<windows.h>
+	<locale>
+
